@@ -30,3 +30,19 @@ DocIntelli is an intelligent PDF Chatbot that leverages **Retrieval-Augmented Ge
 ```bash
 git clone [https://github.com/Zakaria-png-tech/DocIntelli.git](https://github.com/Zakaria-png-tech/DocIntelli.git)
 cd DocIntelli
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Set Up Google API Key
+- Get a free API key from [Google AI Studio](https://makersuite.google.com/app/apikey).
+- Add it to `.env`:
+  ```env
+  GOOGLE_API_KEY=your_api_key_here
+  ```
+
+### 4. Run the App
+```bash
+streamlit run app.py
+```
